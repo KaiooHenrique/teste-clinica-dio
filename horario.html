@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table tr:nth-child(even){
+            background-color: rgb(222, 216, 216);
+        }
+        table thead th{
+            background-color: black;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <Strong><h1 id="inicio">Menu</h1></Strong>
+            <ul>
+                <li><a href="principal.html" target="_self">Pagina Inicial</a></li>
+            </ul>
+            <ul>
+                <li><a href="Sobre.html" target="_self">Sobre a Clinica</a></li>
+            </ul>
+            <ul>
+                <li><a href="horario.html" target="_self">Horario de Atendimento</a></li>
+            </ul>
+            <ul>
+                <li><a href="contato.html" target="_self">Contato</a></li>
+            </ul>
+            
+        </div>
+
+        <div class="main">
+            <div class="header">
+               <img src="relogio.png" width="150"/>
+               <h1>Horarios de Atendimento</h1>
+            </div>
+    
+            <div class="content">
+                <h1>Nossos Serviços</h1>
+                <hr/>
+
+                <h2>Vacinas</h2>
+
+                <p>No Laboratório Ramos, são ministradas vacinas para diferentes tipos de doenças.
+                Abaixo, você pode conferir todos os tipos de imunização que são oferecidos.</p>  
+                <ul>
+                    <li>Pneumo 13</li>
+                    <li>Pneumo 23</li>
+                    <li>Febre amarela</li>
+                    <li>Influenza</li>
+                    <li>Hepatite A infantil</li>
+                    <li>Hepatite A adulto</li>
+                    <li>Hepatite B adulto</li>
+                    <li>Triplice Viral</li>
+                </ul>  
+
+                <h1>Hemograma</h1>
+                <p>É um dos exames de sangue mais solicitados pelos médicos. Ele ajuda a avaliar diferenteselementos do sangue e aspectos de saúde,
+                como, por exemplo, se o paciente está ou não com anemia. </p>
+
+                <h1>Colesterol e glicemia</h1>
+                <p>São avaliações sanguíneas que medem os níveis de açúcar no sangue e o perfil lipídico do paciente,
+                revelando se há ou não risco para problemas como diabetes, aterosclerose, AVC, hipertensão arterial, entre outras doenças.</p>
+
+                <h1>Dosagem de hormônios da tireoide</h1>
+                <P>É um teste sanguíneo que avalia os níveis dos hormônios TSH e T4 livre, que podem indicar a presença de doenças que estão afetando
+                o funcionamento da tireoide, uma glândula que desempenha diversas funções vitais no organismo. </P>    
+
+                <h1>Exame de urina tipo 1 e urocultura </h1>
+                <P>O exame urina tipo 1, também chamado de urina EAS (Elementos Anormais e Sedimento), avalia o estado fisiológico do
+                organismo, fornecendo dados importantes sobre o estado geral de saúde, e ainda detecta a presença de problemas renais. Já a 
+                urocultura é indicada para a detecção de infecção urinária.</P>    
+
+                <h1>Pressão arterial</h1>
+                <p>Realizado no consultório médico com um aparelho chamado esfigmomanômetro, o exame da pressão arterial
+                detecta alterações na pressão sanguínea e hipertensão, um dos principais fatores de risco para as doenças cardiovasculares.</p>    
+
+                <h3><i>Valorize a vida: não adie seu check-up! No CURA, você faz seus agendamentos pelo WhatsApp.</i></h3>
+
+                <h1>Tabela de Horarios dos Serviços</h1>
+
+                    <table summary="Tabela de Horarios dos Serviçoes Fornecidos Pela clinica" border="2" width="500" align="center" cellspacing="4">
+                        <thead>   
+                            <tr>
+                                <th>Serviços</th>
+                                <th>Seg a Sex</th>
+                                <th>Sab/Dom</th>
+                                <th>Feriados</th>
+                            </tr>      
+                        </thead>
+                        <tbody>   
+                            <tr id="1">
+                                <td>Vacinas</td>
+                                <td>07Hrs-19Hrs</td>
+                                <td>08Hrs-18Hrs</td>
+                                <td>--</td>
+                            </tr>    
+
+                            <tr id="2">
+                                <td>Hemograma</td>
+                                <td>07Hrs-19Hrs</td>
+                                <td>08Hrs-18Hrs</td>
+                                <td>08Hrs-18Hrs</td>
+                            </tr>    
+
+                            <tr id="3">
+                                <td>Colesterol e Glicemia</td>
+                                <td>07Hrs-19Hrs</td>
+                                <td>08Hrs-18Hrs</td>
+                                <td>08Hrs-18Hrs</td>
+                            </tr>    
+
+                            <tr id="4">
+                                <td>Dosagem de Hormônios da Tireoide</td>
+                                <td>07Hrs-19Hrs</td>
+                                <td>08Hrs-18Hrs</td>
+                                <td>--</td>
+                            </tr>    
+
+                            <tr id="5">
+                                <td>Exame de Urina tipo 1 e Urocultura</td>
+                                <td>07Hrs-19Hrs</td>
+                                <td>08Hrs-18Hrs</td>
+                                <td>--</td>
+                            </tr>    
+
+                            <tr id="6">
+                                <td>Pressão arterial</td>
+                                <td>07Hrs-19Hrs</td>
+                                <td>08Hrs-18Hrs</td>
+                                <td>08Hrs-18Hrs</td>
+                            </tr>   
+                        </tbody>     
+
+                    </table>
+
+            </div>
+    
+            <div class="footer">
+               <h2>Informações para contato</h2>
+                    <h4>E-mail</h4>
+                    <a href="kaioehnriquepereira09@gmail.com" class="footer-email">exemploemail@gmail.com</a>
+                <h2>SAC</h2>   
+                <p><b>Whatsapp</b></p> 
+                    <img src="174879.png" width="16" height="16" />
+                    <strong>(62) 99917-4705</strong> 
+
+                <p><b>Telefone fixo</b></p>
+                <img src="126341.png" width="16" height="16"/>
+					<strong>(62) 99917-4705</strong>                        
+                <h2>Endereço</h2>        
+                <p><strong>R. Nossa Sra. do Rosário, 26 - Centro, Pirenópolis - GO, 72980-000</strong></p>
+                <button><a href="#inicio">Voltar ao topo</a></button>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
